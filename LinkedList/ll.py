@@ -12,18 +12,20 @@ class Node:
 # Linked List class contains a Node object
 class LinkedList:
 
-    # Function to initialize head
+    # Function to initialize head	
+    # Takes only the self parameter
     def _init_(self):
         self.head = None
 
 
-# Code execution starts here
+# The main function starts here
 if __name__ == '__main__':
 
     # Start with the empty list
     llist = LinkedList()
-
+    # We create a head node with a value here
     llist.head = Node(1)
+	
     second = Node(2)
     third = Node(3)
 
