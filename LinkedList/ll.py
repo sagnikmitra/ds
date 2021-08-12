@@ -61,7 +61,7 @@ if __name__ == '__main__':
     '''
 	Now next of second Node refers to third. So all three
 	nodes are linked.
-
+	
 	llist.head	 second			 third
 		|			 |				 |
 		|			 |				 |
