@@ -45,6 +45,8 @@ int main()
     //How to check the front and the backl elenents
     cout << "Front Element" << a.front() << endl //O(1)
          << "Back Element" << a.back() << endl;  //O(1)
+    //There is a faster method than push back which is emplace back, which works the same but a little bit faster so it can save time in case of competitive programming
+    v.emplace_back(10);
     //How to pop an elements
     cout << "Before POP" << endl;
     //For traversing through a vector with the use of for loops, we can use the syntax, i.e. for (int i:v)
@@ -65,5 +67,19 @@ int main()
     cout << "Before Clear, the Size" << v.size() << ", the Capacity" << v.capacity() << endl;
     v.clear();
     cout << "After Clear, the Size" << v.size() << ", the Capacity" << v.capacity() << endl;
+
+    vector<vector<int>> vec;
+    vector<int> sagnik;
+    sagnik.emplace_back(1);
+    sagnik.emplace_back(12);
+    vector<int> mitra;
+    mitra.emplace_back(11);
+    mitra.emplace_back(13);
+    vec.emplace_back(sagnik);
+    vec.emplace_back(mitra);
+    vector<vector<int>> vecNest(10, vector<int>(20, 0));
+    vec.push_back(vector<int>(20, 0));
+    vec[2].push_back(1);
+    vector<int> vecArr[4];
     return 0;
 }
