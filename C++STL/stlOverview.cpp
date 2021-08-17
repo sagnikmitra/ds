@@ -31,6 +31,18 @@ int main()
     //Unordered Set
     //If there is no case of storing in ascending order, htne we can switch to unordered set and if there is any TLE, then we cans again switch to set
     unordered_set<int> stUO;
+    //multiset - stores duplicates also
+    multiset<int> ms;
+    ms.insert(1);
+    ms.insert(2);
+    ms.insert(3);
+    ms.insert(4);
+
+    ms.insert(3);
+    ms.insert(4);
+
+    //it can store duplicate values but will store in ascending order
+    //when we erase an element, it deletes all the instances of that  partiucalr elemetn
 
     return 0;
 }
