@@ -1,2 +1,2 @@
-# ds-python
-### LinkedList
+## Contents of the Repo
+* Data Structure Programs in CPP and Python
