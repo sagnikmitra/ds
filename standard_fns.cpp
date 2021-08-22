@@ -13,6 +13,20 @@ void rearrange(int arr[], int n)
 		}
 	}
 }
+//binary search
+
+//linear search
+
+//quick sort
+
+//bubble sort
+
+//merge sort
+
+//heap sort
+
+//radix sort
+
 // Driver code
 int main()
 {
