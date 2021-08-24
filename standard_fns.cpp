@@ -290,5 +290,7 @@ void radixsort(int arr[], int n)
 // Driver code
 int main()
 {
+    int arrLinearSearch[];
+    int arrBinarySearch[];
 	return 0;
 }
