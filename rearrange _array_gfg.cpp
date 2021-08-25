@@ -50,5 +50,3 @@ int main()
 	// Function Call
 	fixArray(ar, n);
 }
-
-// Code BY Tanmay Anand
