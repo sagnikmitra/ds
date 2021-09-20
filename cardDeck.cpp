@@ -2,19 +2,16 @@
 using namespace std;
 int main()
 {
-    stack<int> s;
-    int n;
-    cin >> n;
-    int x=0;
-    for (int i = 1; i <= n; i++)
-        s.push(i);
-    while (s.size() > 1)
-    {
-        s.pop();
-        s.push(s.top());
-        s.pop();
-        x++;
+    deque<int> dq;
+    int n = 0; cin>>n;
+    for(int i =0; i<n; i++){
+        dq.push_back(i);
     }
-    cout << s.top() << endl;
+    while(dq.size() > 1) {
+        dq.pop_front();
+        dq.push_back(sq.front());
+        dq.pop_front();
+    }
+    cout<<dq.front();
     return 0;
 }

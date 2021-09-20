@@ -15,5 +15,4 @@ int main(){
         else
             consonant[i]++;
     }
-
 }
